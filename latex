@@ -1,0 +1,293 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome}
+\usepackage{amssymb}
+\input{glyphtounicode}
+\usepackage{ifthen}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+\newcommand{\resumeSubItem}[2]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \\
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \hfill \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+\newcommand{\projectItem}[4]{ % PROJECT
+   \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+        \ifthenelse{\equal{\textbf{#1} #2}{}}{}{\href{#2}{\textbf{#1} \faExternalLink}} $|$ \textit{#3} & \textit{\small #4}\\
+        
+    \end{tabular*}
+   \vspace{-5pt}
+}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \\
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \hfill \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheadingr}[4]{
+  \vspace{10pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    
+      \textbf{#1 - #3} & \textit{#4}  \\
+    %   \textit{\small#3} & \hfill \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+\newcommand{\resumeSubheadingOr}[4]{
+  \vspace{10pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    
+      \textbf{#1 | #3} & \textit{#4}  \\
+    %   \textit{\small#3} & \hfill \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheadingNormal}[4]{
+  \vspace{10pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    
+      \textbf{#1  #3} & \textit{#4}  \\
+    %   \textit{\small#3} & \hfill \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheadingg}[1]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1}  \\
+      
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+
+% \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+% \newcommand{\urlNewWindow}[1]{\href[pdfnewwindow=true]{#1}{\nolinkurl{#1}}}
+% \newcommand{\click}[2]{\href{http://#1}{\colorlet{temp}{.}\color{blue}{\underline{\color{temp}#2}}\color{temp}}}  
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\vspace{-5pt}
+\begin{center}
+    \huge \scshape Banothu Harshith
+\end{center}
+\begin{tabular}{l}
+ \hspace{3.7cm}
+    \small \underline{\href{tel:+91-6302388908}{\raisebox{-0.1\height}\faPhone\ +91 6302388908}}
+    \textbar \hspace{0.3mm}
+    \small \underline{\href{mailto:lcs2022010@iiitl.ac.in}{\raisebox{-0.1\height}\faEnvelope\ lcs2022010@iiitl.ac.in}}
+    \textbar \hspace{0.3mm}
+    \small \underline{\href{https://www.linkedin.com/in/banothu-harshith10/}{\textbf{LinkedIn} \raisebox{-0.1\height}\faExternalLink}}
+    \textbar \hspace{0.3mm}
+     \small \underline{\href{https://github.com/haxshith}{\textbf{GitHub} \raisebox{-0.1\height}\faExternalLink}}
+ \hspace{0.3mm}
+    % \small \underline{\href{https://codeforces.com/profile/har10shith}{\textbf{Codeforces} \raisebox{-0.1\height}\faExternalLink}} 
+    % \textbar \hspace{0.3mm}
+    % \small \underline{\href{https://leetcode.com/u/The_Redeemer/}{\textbf{LeetCode} \raisebox{-0.1\height}\faExternalLink}} 
+\end{tabular}
+
+\vspace{-5pt}
+
+%-----------EDUCATION-----------
+
+\section{Education}
+\vspace{-15pt}
+  \resumeSubHeadingListStart
+  \resumeSubheading
+    {Indian Institute of Information Technology, Lucknow}{Uttar Pradesh}
+    {Bachelor of Technology - Computer Science}{Nov. 2022 - Jun. 2026}
+\vspace{-15px}
+      \vspace{-1px}
+  \resumeSubHeadingListEnd
+  \vspace{-6px}
+  \section{Experience}
+
+\textbf{Zidio Development} \hfill \textit{Aug 2024 - Sept 2024} \\  
+\textit{Software Development Engineer Intern} \hfill \textit{MongoDB, Express.js, React.js, Node.js, GitHub}  
+\begin{itemize}  
+    \vspace{-6px}
+    \item Engineered a \textbf{highly interactive React.js frontend}, delivering a responsive, and intuitive user experience.Revamped UI components for \textbf{optimal performance and accessibility.} 
+    \vspace{-6px}
+   \item Explored \textbf{backend development} with \textbf{Node.js and Express.js}, gaining a basic understanding of \textbf{RESTful APIs} and data handling.  
+\end{itemize}
+\vspace{-20px}
+\section{Projects}
+\vspace{-18px}
+\resumeSubheading
+{\href{https://github.com/draksham/Multiple-Disease-Prediction}{{Multi Disease Prediction \faExternalLink}}}
+{{}}
+{{Flask, Python, Scikit Learn, Streamlit, Github.}}{\textbf{Feb-march 2024}}
+\resumeItemListStart
+\resumeItem{Developed an intuitive web application using the \textbf{Streamlit} Python library for frontend design, seamlessly integrating \textbf{machine learning models} to predict \textbf{disease probabilities} with high accuracy.}
+\vspace{-0.1cm}
+\resumeItem{Predicted conditions such as \textbf{Diabetes}, \textbf{Heart Disease}, \textbf{Liver Disorders}, \textbf{Hepatitis}, and \textbf{Jaundice} by analyzing \textbf{symptoms}, \textbf{medical history}, and \textbf{test results} using machine learning models.}
+\resumeItemListEnd
+
+% \begin{tabularx}{\linewidth}{ @{}l r@{} }
+% \color[HTML]{1C033C} \textbf{\uline{\href{https://github.com/draksham/Multiple-Disease-Prediction}{Multi Disease Prediction}}} \hfill \color[HTML]{371e77} Sep. 2023 - Nov. 2023 \\[4pt]
+% \color[HTML]{371e77}\textbf{\textit{Comprehensive Health Predictor}} \hfill \color[HTML]{4B28A4} \textit{Flask, Python, Scikit Learn, Streamlit, Github.} \\[5pt]
+% \begin{minipage}[t]{\linewidth}
+%     \begin{itemize}[nosep,after=\strut, leftmargin=2em, itemsep=2pt]
+%         \item \textbf{Developed a web app} using the \textbf{Streamlit} Python library for frontend design, integrating \textbf{machine learning models} to predict \textbf{disease probabilities} with over \textbf{90\% accuracy}. The application supports over \textbf{500 users} and processes \textbf{real-time data} efficiently.
+% \item \textbf{Predicted conditions} including \textbf{Diabetes}, \textbf{Heart Disease}, \textbf{Parkinson's}, \textbf{Liver Disorders}, \textbf{Hepatitis}, and \textbf{Jaundice} with an accuracy of \textbf{85\%} based on \textbf{symptoms}, \textbf{medical history}, and \textbf{test results}.
+%     \end{itemize}
+%     \end{minipage}
+% \end{tabularx}
+
+ \vspace{-15px}
+\resumeSubHeadingListEnd
+\resumeSubheading
+{\href{https://github.com/haxshith/wallet-management}{{Wallet Management  \faExternalLink}}}
+{{}}
+{{MongoDB, Node.js ,Type Script and Cloudinary.}}{\textbf{July-Sept 2024}}
+\resumeItemListStart
+\resumeItem{Developed an \textbf{advanced wallet management system} using \textbf{Next.js} as a group project, creating a \textbf{high-performance} and \textbf{adaptable} solution with significantly faster load times.}
+\vspace{-4px}
+\resumeItem{Wrote \textbf{clean}, \textbf{maintainable} code by following best practices and a \textbf{solid architecture}, reducing bugs and simplifying maintenance. Improved user experience with a more \textbf{responsive}, \textbf{accessible}, and \textbf{intuitive} interface.}
+\resumeItemListEnd
+ \vspace{-9px}
+\resumeSubHeadingListEnd
+\vspace{-2pt}
+%----------- Achievements -----------
+\vspace{-1pt}
+\section{Achievements}
+\resumeSubHeadingListStart
+\resumeItemListStart
+\vspace{-2pt}
+\begin{itemize}[left=-12pt, label={\textbullet}]
+ \item \textbf{Knight} on \textbf{LeetCode} (Max Rating: 1973)
+    \href{https://leetcode.com/u/The_Redeemer/}{\faExternalLink} 
+     \vspace{-6pt}  
+     \item \textbf{Specialist} on \textbf{CodeForces} (Max Rating: 1423)
+    \href{https://codeforces.com/profile/har10shith}{\faExternalLink} 
+      \vspace{-6pt} 
+    \item Rated \textbf{3 star} on \textbf{CodeChef} (Max Rating: 1678) 
+    \href{https://www.codechef.com/users/ammiee}{\faExternalLink}
+     \vspace{-6pt}    
+    \item Achieved \textbf{110, 133, 273, 336, 397, 432, 459, 483, 955} Global ranks in \textbf{CodeChef}.
+    \vspace{-6pt}    
+    \item Achieved a rank of \textbf{330, 560, 885, 989} among competitive programmers in \textbf{Codeforces}.
+    \vspace{-6pt}    
+    \item Solved over \textbf{700} problems on various platforms, like \textbf{CodeChef, CodeForces, LeetCode}.
+    \vspace{-6pt}   
+    \item Selected as a \textbf{contributor} for \textbf{GirlScript Summer of Code (GSSOC) in 2022 \& 2023} and actively participated in \textbf{Hacktoberfest} during the same years, successfully merging multiple PRs.
+  \vspace{-6pt} 
+    \item \textbf{Flipkart GRiD 6.0 - Software Development Track:} Made it to the top \textbf{0.57\%} as one of the \textbf{top 320} candidates out of \textbf{484,306} applicants.
+    \vspace{-6pt}   
+    % \item \textbf{TVS Credit E.P.I.C 6.0 - IT Challenge:} Made it to the top \textbf{0.68\%} as one of the \textbf{top 350} candidates out of \textbf{42,010} applicants.
+    
+    \vspace{-7pt}
+\end{itemize}
+\resumeItemListEnd
+\vspace{-5pt}
+\resumeSubHeadingListEnd
+\vspace{-10pt}
+\section{Skills}
+ \small{\resumeSubHeadingListStart
+\resumeSubHeadingListStart
+\item \textbf{Programming Languages}: C, C++, Java, Python, JavaScript.
+\vspace{-6pt}
+\item \textbf{Web \& Backend Technologies}: HTML, CSS, React.js, Node.js, Express.js, Spring, RESTful Web Services.
+\vspace{-6pt}
+% \item \textbf{Databases \& Cloud}: MongoDB, MySQL, PostgreSQL, Firebase.
+% \vspace{-6pt}
+\item \textbf{Version Control \& Development Tools}: Git, GitHub , Visual Studio Code, Postman, Linux.
+\vspace{-6pt}
+\item \textbf{Academic Coursework}: Operating Systems, Object-Oriented Programming, Database Management Systems, Computer Networks.
+\resumeSubHeadingListEnd
+\vspace{-24pt}
+\section{Position of Responsibility}
+\small{
+\resumeSubHeadingListStart
+    \resumeItem{\textbf{Placement Volunteer - IIIT Lucknow}}{}{ 
+    \resumeItemListStart
+    \vspace{-5pt}
+\resumeItem{Volunteered to \textbf{organize and conduct seminars} on resume building, interview preparation, and the internship application process, positively impacting over \textbf{200 students}.}
+\resumeItem{Segregated and streamlined \textbf{company data}, facilitating better coordination with \textbf{30+ companies}, which led to successful campus hiring and increased student placement opportunities.}
+
+    \resumeItemListEnd
+    \vspace{1pt}
+    }
+    \resumeItem{\textbf{Senior Member - Photography Club, IIIT Lucknow}}{}{ 
+    \resumeItemListStart
+    \vspace{-5pt}
+        \resumeItem{As a \textbf{Senior Member}, I mentored over \textbf{100 students}, significantly \textbf{impacting their growth} by sharing my experience to support their success.}
+        \vspace{2pt}
+    \resumeItemListEnd
+    }
+\vspace{-8px} 
+%-------------------------------------------
+\end{document}
