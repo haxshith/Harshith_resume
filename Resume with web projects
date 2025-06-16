@@ -179,37 +179,35 @@
 \textit{Software Development Engineer Intern} \hfill \textit{MongoDB, Express.js, React.js, Node.js, GitHub}  
 \begin{itemize}  
     \vspace{-6px}
- \item \textbf{Built} dynamic and secure user interfaces with \textbf{Next.js App Router}, integrating server-side rendering and middleware-based \textbf{role-based access control} for user experience.
-\vspace{-9px}
-\item Developed responsive and accessible user interfaces using \textbf{Next.js}, incorporating dynamic forms with \textbf{Zod} validation and providing real-time feedback to improve user engagement.
-\vspace{1px}
-% \vspace{-6px}
-% \item Took \textbf{ownership} of features end-to-end from implementation to testing and deployment in a fast-paced, \textbf{startup-like} environment.
+    \item Engineered a \textbf{highly interactive React.js frontend}, delivering a responsive, and intuitive user experience.Revamped UI components for \textbf{optimal performance and accessibility.} 
+    \vspace{-6px}
+   \item Explored \textbf{backend development} with \textbf{Node.js and Express.js}, gaining a basic understanding of \textbf{RESTful APIs} and data handling.  
 \end{itemize}
 \vspace{-20px}
 \section{Projects}
 \vspace{-18px}
 \resumeSubheading
-{\href{https://github.com/haxshith/masala-madness}{{Masala Madness  \faExternalLink}}}
+{\href{https://github.com/haxshith/masala-madness}{{Recipe Sharing WebApp \faExternalLink}}}
 {{}}
-{{MongoDB, Express.js, React.js, and Node.js.}}{\textbf{Feb-march 2024}}
+{{MongoDB, Express.js, React.js, Node.js, Git, Github.}}{\textbf{Feb-march 2024}}
 \resumeItemListStart
-\resumeItem{Designed and implemented a recipe suggestion platform using the \textbf{MERN stack}.Improved system performance by optimizing API endpoints and leveraging database indexing for faster query responses.}
-\vspace{-4px}
-
-\resumeItem{Integrated personalized recommendation logic using user preferences and dietary filters, enhancing user engagement.Optimized performance using \textbf{Next.js} with server-side rendering.}
+\resumeItem{Built a \textbf{recipe suggestion system} using the \textbf{MERN stack}, featuring filters, search, and a responsive UI.  
+  Developed seamless frontend interactions and dynamic routing for smooth user experience.}
+\vspace{-0.1cm}
+\resumeItem{Optimized \textbf{API performance} and enhanced scalability through efficient \textbf{MongoDB indexing}.Added user authentication and dashboard features to support personalization and recipe management.}
 \resumeItemListEnd
+
 
  \vspace{-15px}
 \resumeSubHeadingListEnd
 \resumeSubheading
-{\href{https://github.com/haxshith/wallet-management}{{Wallet Management  \faExternalLink}}}
+{\href{https://github.com/haxshith/wallet-management}{{Growon's Media  \faExternalLink}}}
 {{}}
 {{MongoDB, Node.js ,Type Script and Cloudinary.}}{\textbf{July-Sept 2024}}
 \resumeItemListStart
-\resumeItem{Led the development of a secure \textbf{wallet management system} using \textbf{Next.js (App Router)}, \textbf{Prisma with MongoDB}, and \textbf{Cloudinary}, implementing \textbf{role-based access control}, server actions, and optimized pagination to enhance performance and maintainability.}
+\resumeItem{Developed an \textbf{advanced wallet management system} using \textbf{Next.js} as a group project, creating a \textbf{high-performance} and \textbf{adaptable} solution with significantly faster load times.}
 \vspace{-4px}
-\resumeItem{Engineered a responsive, mobile-first UI with \textbf{Tailwind CSS} and \textbf{Zod-based validation}, implemented strict security measures including strong password enforcement, and audit logging to ensure financial data integrity.}
+\resumeItem{Wrote \textbf{clean}, \textbf{maintainable} code by following best practices and a \textbf{solid architecture}, reducing bugs and simplifying maintenance. Improved user experience with a more \textbf{responsive}, \textbf{accessible}, and \textbf{intuitive} interface.}
 \resumeItemListEnd
  \vspace{-9px}
 \resumeSubHeadingListEnd
@@ -221,15 +219,15 @@
 \resumeItemListStart
 \vspace{-2pt}
 \begin{itemize}[left=-12pt, label={\textbullet}]
- \item \textbf{Knight} on \textbf{Leetcode} (Max Rating: 1993)
+ \item \textbf{Knight} on \textbf{LeetCode} (Max Rating: 1973)
     \href{https://leetcode.com/u/The_Redeemer/}{\faExternalLink} 
      \vspace{-6pt}  
-    \item Rated \textbf{Specialist} on \textbf{Codeforces} (Max Rating: 1525) 
-    \href{https://codeforces.com/profile/Bankai_123}{\faExternalLink}
-     \vspace{-6pt}   
-       \item Rated \textbf{3 Star} on \textbf{Codechef} (Max Rating: 1678) 
+     \item \textbf{Specialist} on \textbf{CodeForces} (Max Rating: 1423)
+    \href{https://codeforces.com/profile/har10shith}{\faExternalLink} 
+      \vspace{-6pt} 
+    \item Rated \textbf{3 star} on \textbf{CodeChef} (Max Rating: 1678) 
     \href{https://www.codechef.com/users/ammiee}{\faExternalLink}
-     \vspace{-6pt} 
+     \vspace{-6pt}    
     \item Achieved \textbf{110, 133, 273, 336, 397, 432, 459, 483, 955} Global ranks in \textbf{CodeChef}.
     \vspace{-6pt}    
     \item Achieved a rank of \textbf{330, 560, 885, 989} among competitive programmers in \textbf{Codeforces}.
@@ -247,15 +245,13 @@
 \resumeItemListEnd
 \vspace{-5pt}
 \resumeSubHeadingListEnd
-\vspace{-10pt}
+\vspace{-8pt}
 \section{Skills}
  \small{\resumeSubHeadingListStart
 \resumeSubHeadingListStart
-\item \textbf{Programming Languages}: C, C++, Java, Python, JavaScript, SQL.
+\item \textbf{Programming Languages \& Databases}: C, C++, Java, Python, JavaScript, MongoDB, MySQL.
 \vspace{-6pt}
 \item \textbf{Web \& Backend Technologies}: HTML, CSS, React.js, Node.js, Express.js, Spring, RESTful Web Services.
-\vspace{-6pt}
-\item \textbf{Infrastructure \& Platforms}: Basic knowledge of AWS, Heroku, Firebase, Linux Environments.
 \vspace{-6pt}
 % \item \textbf{Databases \& Cloud}: MongoDB, MySQL, PostgreSQL, Firebase.
 % \vspace{-6pt}
@@ -264,25 +260,37 @@
 \item \textbf{Academic Coursework}: Operating Systems, Object-Oriented Programming, Database Management Systems, Computer Networks.
 \resumeSubHeadingListEnd
 \vspace{-24pt}
-\section{Position of Responsibility}
+\section{Positions of Responsibility}
 \small{
 \resumeSubHeadingListStart
-    \resumeItem{\textbf{Placement Volunteer - IIIT Lucknow}}{}{ 
-    \resumeItemListStart
-    \vspace{-5pt}
-\resumeItem{Volunteered to \textbf{organize and conduct seminars} on resume building, interview preparation, and the internship application process, positively impacting over \textbf{200 students}.}
-% \resumeItem{Segregated and streamlined \textbf{company data}, facilitating better coordination with \textbf{30+ companies}, which led to successful campus hiring and increased student placement opportunities.}
 
-    \resumeItemListEnd
-    \vspace{1pt}
-    }
-    \resumeItem{\textbf{Senior Member - Photography Club, IIIT Lucknow}}{}{ 
+% Placement Volunteer
+\resumeItem{\textbf{Placement Volunteer} - IIIT Lucknow}{}{ 
+\vspace{-4pt}
     \resumeItemListStart
-    \vspace{-5pt}
-        \resumeItem{As a \textbf{Senior Member}, I mentored over \textbf{100 students}, significantly \textbf{impacting their growth} by sharing my experience to support their success.}
-        \vspace{2pt}
+        \resumeItem{Segregated and streamlined \textbf{company data}, facilitating better coordination with \textbf{30+ companies}, leading to successful campus hiring and increased student placement opportunities.}
     \resumeItemListEnd
-    }
+}
+\vspace{-4pt}
+% Web Wing Member
+\resumeItem{\textbf{Member, Web Wing} - IIIT Lucknow}{}{ 
+\vspace{-5pt}
+    \resumeItemListStart
+        \resumeItem{Contributed to developing and maintaining club platforms while mentoring \textbf{100+ juniors}, enhancing their web development skills and fostering a collaborative learning environment.}
+    \resumeItemListEnd
+}
+\vspace{-4pt}
+% Photography Club
+\resumeItem{\textbf{Senior Member, Photography Club} - IIIT Lucknow}{}{ 
+\vspace{-5pt}
+    \resumeItemListStart
+        \resumeItem{Mentored over \textbf{100 students}, significantly \textbf{impacting their creative growth} by sharing hands-on photography techniques and composition insights.}
+    \resumeItemListEnd
+}
+
+\resumeSubHeadingListEnd
+}
+
 \vspace{-8px} 
 %-------------------------------------------
 \end{document}
